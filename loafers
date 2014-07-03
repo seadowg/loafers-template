@@ -16,7 +16,6 @@ echo "Pushing your app onto the phone..."
 mvn android:deploy android:run >/dev/null 2>&1
 
 echo "Sweeping up..."
-mvn clean >/dev/null 2>&1
 cd ..
 rm -rf loafers-base-master
 
